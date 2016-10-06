@@ -1,5 +1,5 @@
 # JuanTab
-This is like CronTab except it Works! and runs on python. I had a bad expireince with CronTab and felt like making something similer that works.
+This is like CronTab except it Works! and runs on python. I had a bad experience with CronTab and felt like making something similar that works.
 
 **For the Raspberry PI**
 
