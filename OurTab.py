@@ -26,8 +26,7 @@ delay = 0 #~the amount of time between the command being run goes here. ONLY FUN
 
 atreboot = False
 
-tm = False #~if you want the ~#
-
+#~If you set these to 0 it will continue doing the command~#
 sec = 0
 minute = 0
 hour = 0
