@@ -52,4 +52,5 @@ else:
 '''
 Made By Juan Pena
 Instagram = @juanisdatboi
+verson 0.5.1
 '''
