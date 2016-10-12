@@ -24,7 +24,7 @@ num = 0 #~change 0 to the amount of times you wount the program to run it~#
 
 delay = 0 #~the amount of time between the command being run goes here. ONLY FUNCTIONAL IF IN INFINITE MODE! ~#
 
-atreboot = False
+atreboot = False #if this is true the moment it starts the command will exacute but if false the moment it start it will start counting down the total
 
 #~If you set these to 0 it will continue doing the command~#
 sec = 0
@@ -39,11 +39,15 @@ if count == true:
     for i in range(num+1):
         time.sleep(total)
         os.system(com)
-
 else:
     while True:
-        time.sleep(total)
-        os.system(com)
+        if atreboot == true:
+            os.system(com)
+            time.sleep(total)
+        else:
+            time.sleep(total)
+            os.system(com)
+
 
 '''
 Made By Juan Pena
